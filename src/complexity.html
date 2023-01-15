@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="complexity.css" />
+    <title>Complexity</title>
+  </head>
+  <body>
+    <section class="head container">
+      <div class="row">
+        <h1 class="page--header">Code<span>Hub.</span></h1>
+        <button class="logout">
+          <option value="User">Logout</option>
+        </button>
+      </div>
+      <h2>
+        <span>Get the time complexity of a function</span>
+      </h2>
+    </section>
+
+    <main>
+      <div class="container main__box">
+        <nav>
+          <ul class="nav__list row">
+            <li class="nav__item">
+              <a href="codeExplaination.html">Code Explaination</a>
+            </li>
+            <li class="nav__item">
+              <a href="codeFlipper.html">Code Flipper</a>
+            </li>
+            <li class="nav__item"><a href="sqlQuery.html">SQL Query</a></li>
+            <li class="nav__item active">
+              <a href="complexity.html">Complexity</a>
+            </li>
+            <li class="nav__item"><a href="bugFixer.html">Bug Fixer</a></li>
+          </ul>
+        </nav>
+        <section class="sub__box">
+          <form action="#">
+            <div class="sub__section row">
+              <div class="input">
+                <div class="inputElements">
+                  <div class="h3"><h3>Code Snippet</h3></div>
+                  <div class="langSelect">
+                    <select name="langSelector" id="langSelect">
+                      <option value="Plain Text">Plain Text</option>
+                      <option value="C++">C++</option>
+                      <option value="C#">C#</option>
+                      <option value="Go">Go</option>
+                      <option value="Java">Java</option>
+                      <option value="JavaScript">JavaScript</option>
+                      <option value="Python">Python</option>
+                      <option value="Ruby">Ruby</option>
+                      <option value="Rust">Rust</option>
+                      <option value="TypeScript">TypeScript</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="input__box">
+                  <textarea
+                    name="codeExplainationInput"
+                    id="codeExplainationInput"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="line"></div>
+              <div class="output">
+                <div class="h3"><h3>Complexity</h3></div>
+                <div class="output__box">
+                  <textarea
+                    name="codeExplainationOutput"
+                    id="codeExplainationOutput"
+                    cols="30"
+                    rows="10"
+                    readonly
+                  >
+                  </textarea>
+                </div>
+              </div>
+            </div>
+            <div class="btn">
+              <button class="fixNow">Calculate</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
