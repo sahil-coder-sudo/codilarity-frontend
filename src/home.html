@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="home.css" />
+    <title>Home</title>
+  </head>
+
+
+  <body>
+
+    <section class="head container">
+      <h1 class="page--header">Code<span>Hub.</span></h1>
+      <!-- <h2>
+        <span>2nd grader explaination of technical codes</span>
+      </h2> -->
+      <button class="logout">
+        <option value="User">Logout</option>
+      </button>
+    </section>
+
+
+    <div class="tabs">
+
+
+      <!-- Code Explaination  -->
+
+      <input type="radio" id="codeExplaination" name="homeTabs" checked="checked" />
+      <label for="codeExplaination">Code Explaination</label>
+      <div class="tabInput">
+        <div class="inputBox">
+
+          
+
+          <div class="bugFixerInput">
+
+            <!-- <form>
+              <label for="textAreaBugFixerInput"> Input</label> -->
+            
+              <div class="langSelectorInputHeader row">
+                <div>
+                  <form action="">
+                    <label for="textAreaBugFixerInput"> Input</label>
+                  </form>
+                </div>
+                <div class="langSelector">
+                  <select name="langSelect" id="langSelect">
+                    <option value="Plain Text">Plain Text</option>
+                    <option value="C++">C++</option>
+                    <option value="C#">C#</option>
+                    <option value="Go">Go</option>
+                    <option value="Java">Java</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Python">Python</option>
+                    <option value="Ruby">Ruby</option>
+                    <option value="Rust">Rust</option>
+                    <option value="TypeScript">TypeScript</option>
+                  </select>
+                </div>
+                
+              </div>
+            
+              <input type='text' name="textAreaBugFixerInput"
+              id="textAreaBugFixerInput" hidden/ ><textarea
+                name="textAreaBugFixerInput"
+                id="textAreaBugFixerInput"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </form>
+          </div>
+
+          <div class="v1"></div>
+
+          <div class="bugFixerOutput">
+            <form action="">
+              <label for="textAreaBugFixerOutput"> Explaination </label>
+              <input type="text" name="textAreaBugFixerOutput"
+              id="textAreaBugFixerOutput" hidden / ><textarea
+                name="textAreaBugFixerOutput"
+                id="textAreaBugFixerOutput"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </form>
+          </div>
+          
+        
+        <!-- <button class="fixNow">Explain</button> -->
+
+        </div>
+      </div>
+
+      <!-- Code Flipper  -->
+
+      <input type="radio" id="codeFlipper" name="homeTabs"  />
+      <label for="codeFlipper">Code Flipper</label>
+
+      <div class="tabInput">
+        <div class="inputBox">
+          <div class="bugFixerInput">
+            <form action="">
+              <label for="textAreaBugFixerInput">Input</label>
+              <input type="text" name="textAreaBugFixerInput"
+              id="textAreaBugFixerInput" hidden>
+                <textarea
+                  name="textAreaBugFixerInput"
+                  id="textAreaBugFixerInput"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </input>
+            </form>
+          </div>
+          <div class="v1"></div>
+
+          <div class="bugFixerOutput">
+            <form action="">
+              <label for="textAreaBugFixerInput">Output</label>
+              <input type="text" name="textAreaBugFixerInput"
+              id="textAreaBugFixerInput" hidden>
+                <textarea
+                  name="textAreaBugFixerOutput"
+                  id="textAreaBugFixerOutput"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </input>
+            </form>
+          </div>
+        </div>
+        <div class="langSelector">
+          <select name="langSelect" id="langSelect">
+            <option value="Plain Text">Plain Text</option>
+            <option value="C++">C++</option>
+            <option value="C#">C#</option>
+            <option value="Go">Go</option>
+            <option value="Java">Java</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="Ruby">Ruby</option>
+            <option value="Rust">Rust</option>
+            <option value="TypeScript">TypeScript</option>
+          </select>
+        </div>
+        <div class="langSelector">
+          <select name="langSelect" id="langSelect2">
+            <option value="Plain Text">Haskell</option>
+            <option value="C++">C++</option>
+            <option value="C#">C#</option>
+            <option value="Go">Go</option>
+            <option value="Java">Java</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="Ruby">Ruby</option>
+            <option value="Rust">Rust</option>
+            <option value="TypeScript">TypeScript</option>
+          </select>
+        </div>
+        <button class="fixNow">Flip</button>
+  
+      </div>
+
+      
+
+
+      <!-- Sql Query -->
+
+
+      <input type="radio" id="sqlQuery" name="homeTabs" />
+      <label for="sqlQuery">SQL Query</label>
+      <div class="tabInput">
+        <div class="inputBox">
+          <div class="bugFixerInput">
+            <form action="">
+              <label for="textAreaBugFixerInput">Problem</label>
+              <input type="text" name="textAreaBugFixerInput"
+              id="textAreaBugFixerInput" hidden>
+                <textarea
+                  name="textAreaBugFixerInput"
+                  id="textAreaBugFixerInput"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </input>
+            </form>
+          </div>
+          <div class="v1"></div>
+
+          <div class="bugFixerOutput">
+            <form action="">
+              <label for="textAreaBugFixerInput">Query</label>
+              <input type="text" name="textAreaBugFixerInput"
+              id="textAreaBugFixerInput" hidden>
+                <textarea
+                  name="textAreaBugFixerOutput"
+                  id="textAreaBugFixerOutput"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </input>
+            </form>
+          </div>
+        </div>
+        <button class="fixNow">Get</button>
+
+      </div>
+
+      <!-- Complexity -->
+
+      <input type="radio" id="timeComplexity" name="homeTabs" />
+      <label for="timeComplexity">Time Complexity</label>
+      <div class="tabInput">
+        <div class="inputBox">
+          <div class="bugFixerInput">
+            <form>
+              <label for="textAreaBugFixerInput"> Code Snippet</label>
+              <input type='text' name="textAreaBugFixerInput"
+              id="textAreaBugFixerInput" hidden/ ><textarea
+                name="textAreaBugFixerInput"
+                id="textAreaBugFixerInput"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </form>
+          </div>
+          <div class="v1"></div>
+          <div class="bugFixerOutput">
+            <form action="">
+              <label for="textAreaBugFixerOutput"> Complexity </label>
+              <input type="text" name="textAreaBugFixerOutput"
+              id="textAreaBugFixerOutput" hidden / ><textarea
+                name="textAreaBugFixerOutput"
+                id="textAreaBugFixerOutput"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </form>
+          </div>
+          
+        <div class="langSelector">
+          <select name="langSelect" id="langSelect">
+            <option value="Plain Text">Plain Text</option>
+            <option value="C++">C++</option>
+            <option value="C#">C#</option>
+            <option value="Go">Go</option>
+            <option value="Java">Java</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="Ruby">Ruby</option>
+            <option value="Rust">Rust</option>
+            <option value="TypeScript">TypeScript</option>
+          </select>
+        </div>
+        <button class="fixNow">Calculate</button>
+
+        </div>
+      </div>
+
+      <!-- bug fixer  -->
+
+
+      <input type="radio" id="bugFixer" name="homeTabs" />
+      <label for="bugFixer">Bug Fixer</label>
+      <div class="tabInput">
+        <div class="inputBox">
+          <div class="bugFixerInput">
+            <form>
+              <label for="textAreaBugFixerInput"> Input</label>
+              <input type='text' name="textAreaBugFixerInput"
+              id="textAreaBugFixerInput" hidden/ ><textarea
+                name="textAreaBugFixerInput"
+                id="textAreaBugFixerInput"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </form>
+          </div>
+          <div class="v1"></div>
+          <div class="bugFixerOutput">
+            <form action="">
+              <label for="textAreaBugFixerOutput"> Result </label>
+              <input type="text" name="textAreaBugFixerOutput"
+              id="textAreaBugFixerOutput" hidden / ><textarea
+                name="textAreaBugFixerOutput"
+                id="textAreaBugFixerOutput"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </form>
+          </div>
+          
+        <div class="langSelector">
+          <select name="langSelect" id="langSelect">
+            <option value="Plain Text">Plain Text</option>
+            <option value="C++">C++</option>
+            <option value="C#">C#</option>
+            <option value="Go">Go</option>
+            <option value="Java">Java</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="Ruby">Ruby</option>
+            <option value="Rust">Rust</option>
+            <option value="TypeScript">TypeScript</option>
+          </select>
+        </div>
+        <button class="fixNow">Fix Now</button>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
